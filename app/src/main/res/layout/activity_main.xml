@@ -17,12 +17,12 @@
 
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/my_image_id"
-            tools:src="@tools:sample/avatars"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"/>
+            android:id="@+id/imageView"
+            android:layout_width="212dp"
+            android:layout_height="188dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:layout_marginBottom="20dp"
+            />
 
         <TextView
             android:text="Hello"
@@ -33,12 +33,12 @@
             android:textSize="40sp"/>
 
         <TextView
-            android:text=" World"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
-            android:textSize="15sp"/>
+            android:text=" World!"
+            android:textSize="40sp" />
     </LinearLayout>
 
 </LinearLayout>
